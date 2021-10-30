@@ -13,6 +13,7 @@
 .nav_menu {
     display: flex;
     justify-content:flex-end ;
+    /*margin-left: 700px;*/
 }
 
 .nav1 .nav-bar {
@@ -25,12 +26,13 @@
      text-decoration: none;
      font-family: Verdana;
      font-size: 12px;
+     
 }
 
 .nav-bar a:hover {
     text-decoration: underline;
     text-decoration-color: #DB7A4E;
-   
+    
 }
 
 
@@ -46,6 +48,8 @@
 
 .hero_text {
     justify-content: right;
+    padding-right: 50px;
+    margin-right: 200px;
 }
 
 .hero_airplane{
@@ -72,8 +76,8 @@
 }
 
 .recommendation_images{
-    border-radius: 0px;
-    border: 1px solid;
+    border-radius: 2px;
+    /*border: 1px solid;*/
     border-color: rgb(219, 219, 219);
     padding-right: 30px;
 }
@@ -101,12 +105,14 @@
 .footer1_day{
     color: #DB7A4E;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
 
 }
 
 .footer1_time {
     color: #335576;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
 
 
@@ -136,4 +142,13 @@ p {
 .footer_container {
     display: inline-block;
     padding-right: 50px;
+}
+
+.recommendation_title {
+    position: absolute;
+    top:750px;
+    color: white;
+    margin:auto;
+    padding-left: 70px;
+    
 }
