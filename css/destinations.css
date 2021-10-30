@@ -10,6 +10,7 @@
 .destination {
     display: flex;
     justify-content: space-between;
+    padding: 0 130px;
     margin: auto;
 }
 
@@ -18,24 +19,24 @@
     flex-wrap: wrap;
     /*margin-left: 450px;
     margin-right:450px;*/
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: auto;
 }
 
 .destination_box2 {  
     background-color:white;
     flex-wrap: wrap;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: auto;
 }
 
 .destination_box3 {  
     background-color:white;
     flex-wrap: wrap;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: auto;
 }
 
@@ -43,6 +44,7 @@
     color: white;
     font-size: 70px;
     padding-top: 50px;
+    padding-left: 30px;
 }
 
 .destination_day {
