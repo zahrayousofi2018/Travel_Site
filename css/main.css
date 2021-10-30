@@ -25,8 +25,7 @@
      color:black;
      text-decoration: none;
      font-family: Verdana;
-     font-size: 12px;
-     
+     font-size: 12px;   
 }
 
 .nav-bar a:hover {
@@ -81,7 +80,7 @@
     display:flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 0 160px;
+    padding: 0 190px;
 
 }
 
@@ -91,14 +90,8 @@
     border-opacity: 20%;
     border-color: rgb(219, 219, 219);
     box-shadow: 0px;
-    
-    
 }
 
-
-.recommendation_cards a:hover{
-    
-}
 
 .footer1 {
     display: flex;
@@ -153,9 +146,10 @@ p {
 
 .recommendation_title {
     position: absolute;
-    top:750px;
+    top:800px;
     color: white;
     margin:auto;
-    padding-left: 70px;
+    padding-left: 110px;
+    
     
 }
